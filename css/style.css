@@ -1,0 +1,150 @@
+html, body{
+    font: 1vw Roboto;
+    height: 100%;
+}
+
+html{
+    display: table;
+    margin: auto;
+}
+
+body{
+    display: table-cell;
+    vertical-align: middle;
+    background-color: #EDF1F3;
+}
+
+div{
+    text-align: center;
+}
+
+ul{
+    display: inline;
+    margin: 0;
+    padding: 35px;
+}
+
+li{
+    list-style: none;
+    display: inline-block;
+    margin: 15px;
+}
+
+li:hover{
+    color: #006BE8;
+    box-sizing: border-box;
+    border-bottom: #006BE8 solid 1px;
+}
+
+h1{
+    margin: 0;
+    padding: 3.5vh 0 0 0;
+    font-size: 3.3vw;
+    letter-spacing: 0.15em;
+}
+
+h3{
+    margin: 0;
+    padding: 0 0 2vh 0;
+    font-size: 1.8vw;
+    letter-spacing: 0.2em;
+}
+
+th, td{
+    height: 4vh;
+    width: 30%;
+    margin: 0.5vh;
+    padding: 0.5vh 2vh;
+}
+
+th{
+    text-align: center;
+    font-weight: normal;
+    border-bottom: #e7e7e7 solid 1px;
+}
+
+td{
+    text-align: left;
+}
+
+td:hover{
+    background-color: #fafafa;
+    color: #006BE8;
+}
+
+span{
+    color: #c7c7c7;
+}
+
+.snsimg{
+    margin: 0 1vw 0 0;
+    width: 1.7vw;
+    vertical-align: middle;
+}
+
+#logo{
+    margin: 0 3vw;
+    width: 7vw;
+    vertical-align: middle;
+}
+
+#all{
+    background-color: #fafafa;
+    width: 85vw;
+    height: 90vh;
+}
+
+#header{
+    background-color: #fff;
+}
+
+#loginBtn{
+    background-color: #fff;
+    color: #0066CC;
+    box-sizing: border-box;
+    padding: 9px;
+    border: solid 1.5px;
+    margin: 0.5vw 3vw;
+    font: 1vw Roboto;
+}
+
+#main{
+    background: linear-gradient(263.53deg, rgba(255, 255, 255, 0.32) 0.24%, rgba(255, 255, 255, 0.08) 100.87%), #006BE8;
+    line-height: 5.5vh;
+    padding: 1vh;
+    color: #fff;
+}
+
+#left{
+    float: left;
+    background-color: #fff;
+    width: 30%;
+    height: 46%;
+    margin: 2% 0.2% 2% 4.2%;
+    padding: 10px;
+    box-shadow: 0px 2px 4px rgba(0, 0, 0, 0.08);
+}
+
+#icon{
+    margin: 0 1vw 0 0;
+    width: 2vw;
+    vertical-align: middle;
+}
+
+#right{
+    float: right;
+    background-color: #fff;
+    width: 53%;
+    height: 46%;
+    margin: 2% 4.2% 2% 0.2%;
+    padding: 10px;
+    box-shadow: 0px 2px 4px rgba(0, 0, 0, 0.08);
+}
+
+#footer{
+}
+
+#sns{
+    float: right;
+    margin-right: 3vw;
+}
