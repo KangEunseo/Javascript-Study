@@ -145,6 +145,7 @@ span{
 }
 
 #sns{
-    float: right;
-    margin-right: 3vw;
+    display: inline;
+    position: absolute;
+    margin-left: 28vw;
 }
