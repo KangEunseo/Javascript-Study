@@ -72,14 +72,30 @@ td:hover{
     color: #006BE8;
 }
 
+hr{
+    border: solid 0.5px #c7c7c7;
+}
+
+h4{
+    font-weight: normal;
+    margin: 0;
+}
+
 span{
-    color: #c7c7c7;
+    line-height: 18px;
 }
 
 .snsimg{
     margin: 0 1vw 0 0;
     width: 1.7vw;
     vertical-align: middle;
+}
+
+.section{
+    display: inline-block;
+    width: 20%;
+    padding: 15px;
+    text-align: left;
 }
 
 #logo{
@@ -91,7 +107,8 @@ span{
 #all{
     background-color: #fafafa;
     width: 85vw;
-    height: 90vh;
+    margin: 40px;
+    padding: 0 0 30px 0;
 }
 
 #header{
@@ -116,11 +133,10 @@ span{
 }
 
 #left{
-    float: left;
+    display: inline-block;
     background-color: #fff;
     width: 30%;
-    height: 46%;
-    margin: 2% 0.2% 2% 4.2%;
+    margin: 2% 1.4% 2% 3%;
     padding: 10px;
     box-shadow: 0px 2px 4px rgba(0, 0, 0, 0.08);
 }
@@ -132,16 +148,23 @@ span{
 }
 
 #right{
-    float: right;
+    display: inline-block;
     background-color: #fff;
     width: 53%;
-    height: 46%;
-    margin: 2% 4.2% 2% 0.2%;
+    height: 41vh;
+    margin: 2% 3% 2% 1.4%;
     padding: 10px;
     box-shadow: 0px 2px 4px rgba(0, 0, 0, 0.08);
 }
 
 #footer{
+    padding: 10px;
+    clear: both;
+    background-color: #f1f1f1;
+}
+
+#copyright{
+    color: #c7c7c7;
 }
 
 #sns{
