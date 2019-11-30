@@ -1,0 +1,19 @@
+html{
+    position: absolute;
+    left: 50%;
+    transform: translateX(-50%);
+}
+.wrap{
+    position: relative;
+    border: 1px solid #ccc;
+    display: block;
+    margin: 30px;
+    padding: 20px;
+    width: 400px;
+}
+.over{
+    position: absolute;
+    transform: translateY(-35px);
+    padding: 3px;
+    background-color: #fff;
+}
