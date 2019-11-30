@@ -1,0 +1,9 @@
+html{
+    text-align: center;
+}
+ul{
+    list-style: none;
+}
+ul li:before{
+    content: '✓ ';
+}

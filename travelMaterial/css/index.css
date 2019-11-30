@@ -10,18 +10,19 @@ html{
     padding: 20px;
     display: inline-block;
 }
-#itemList{
-    text-align: left;
-    background-color: rgb(243, 243, 243);
-}
 #itemList > ul{
+    text-align: left;
     list-style: none;
     margin: 0;
     padding: 0;
 }
 #itemList > ul > li{
+    background-color: rgb(231, 231, 231);
     line-height: 30px;
     padding-left: 20px;
+}
+#itemList > ul > li:nth-child(odd){
+    background-color: rgb(248, 248, 248);
 }
 #itemList > ul > li:hover{
     background-color: gainsboro;
